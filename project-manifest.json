@@ -231,12 +231,12 @@
       "sha256": "41ea9b200a768f1f55a5fd86ee6a278907f994274ca548cf742225579e50202c"
     },
     "publishing/epub.css": {
-      "bytes": 350,
-      "sha256": "8016551bc5a88d2038f541bd128116eaf0deda049be24065adab956de34e9866"
+      "sha256": "59281086fd7789942d6e4b64d53adb72a248c616018b800038a1c6904cbe4fd4",
+      "bytes": 721
     },
     "publishing/fix-epub-after-pandoc.py": {
-      "bytes": 3337,
-      "sha256": "223e8f4fb24813ecdf687db1fea7fe2a272af8f4a9ac1ad254ac01c9c03bd3a2"
+      "sha256": "019cffeaaaf693f5d0348889995c120dacf7fc1f8b64493f16e4eb7929311fe5",
+      "bytes": 3475
     },
     "publishing/pdf-filter.lua": {
       "bytes": 1833,
