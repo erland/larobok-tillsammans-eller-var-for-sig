@@ -1,0 +1,37 @@
+title: "Tillsammans eller var för sig?"
+subtitle: "En praktisk guide till myndighetssamverkan kring digitala lösningar"
+author: "Erland Lindmark"
+language: "sv"
+book_kind: "factbook"
+book_type: "praktisk_faktabok"
+difficulty: "basic"
+audience: "Beslutsfattare, verksamhetsutvecklare, IT-arkitekter, produktansvariga och strateger i svenska statliga myndigheter"
+edition: "1"
+version: "0.1"
+date: "2026-10-09"
+rights: "Rättighetsuppgifter fastställs före publicering"
+publisher: ""
+cover_image: "assets/cover/omslag.png"
+identifier: ""
+subject: "Myndighetssamverkan, digitalisering, gemensam komponentutveckling"
+description: "Koncis, källbaserad faktabok om när myndighetssamverkan skapar nytta, när den bör undvikas och hur samverkansmodell väljs."
+project_slug: "tillsammans-eller-var-for-sig"
+chapters:
+  - chapters/00-inledning.md
+  - chapters/01-varfor-samverka.md
+  - chapters/02-nar-lampar-sig-samverkan.md
+  - chapters/03-samverkansmodeller.md
+  - chapters/04-juridik-finansiering-ansvar.md
+  - chapters/05-svenska-erfarenheter.md
+  - chapters/06-valja-samverkansmodell.md
+  - chapters/07-fran-ide-till-forvaltning.md
+  - chapters/08-kallor-och-vidare-lasning.md
+exports:
+  epub:
+    enabled: true
+    include_text_toc: false
+    toc_depth: 1
+  pdf:
+    enabled: true
+    include_toc_before_introduction: true
+    toc_depth: 3
