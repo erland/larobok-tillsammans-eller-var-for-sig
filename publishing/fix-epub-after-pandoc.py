@@ -19,12 +19,13 @@ def split_headings(base: Path)->int:
         for h1 in tree.getroot().findall('.//x:h1',NS):
             text=''.join(h1.itertext()).strip(); m=pat.match(text)
             if not m: continue
-            ident=h1.attrib.get('id'); h1.clear()
+            ident=h1.attrib.get('id'); h1.clear(); h1.set('class','chapter-heading')
             if ident: h1.set('id',ident)
             a=ET.SubElement(h1,f'{{{XHTML}}}span',{'class':'chapter-number'}); a.text=m.group(1)
             b=ET.SubElement(h1,f'{{{XHTML}}}span',{'class':'chapter-title'}); b.text=m.group(2)
             changed=True
         if changed: tree.write(path,encoding='utf-8',xml_declaration=True); count+=1
+    if count != 8: raise RuntimeError(f'EPUB ska ha åtta numrerade kapitelrubriker, hittade {count}')
     return count
 
 def nav_non_linear(base: Path, opf_rel: Path)->bool:
