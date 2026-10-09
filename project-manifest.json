@@ -243,8 +243,8 @@
       "sha256": "9d4e3f4d49c6386ed70499244670f2b8550f6809f9ba792687fb0147c477d247"
     },
     "publishing/pdf-template.tex": {
-      "bytes": 2683,
-      "sha256": "b70779f924f6bf88ffc8903ed44e903af2fe29209df89e53a4cfe43ef473d1b8"
+      "sha256": "0c54416e7a7db2cc5cabc8c2c8351be08798e2340b1f0330b7843fbcd60ad637",
+      "bytes": 2685
     },
     "revision-log.md": {
       "bytes": 7687,
