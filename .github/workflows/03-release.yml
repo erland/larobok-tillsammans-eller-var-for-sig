@@ -10,7 +10,7 @@ permissions:
 jobs:
   release:
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 30
     steps:
       - uses: actions/checkout@v4
       - name: Install pinned Pandoc
@@ -22,7 +22,9 @@ jobs:
           sudo apt-get update
           sudo apt-get install -y --no-install-recommends texlive-xetex texlive-latex-recommended texlive-latex-extra texlive-fonts-recommended lmodern fonts-texgyre
           fc-cache -f
-          find /usr/share/fonts -iname 'texgyrepagella-regular.otf' -print -quit | grep .
+          # TeX Gyre may be installed under the TeX tree rather than /usr/share/fonts.
+          # Validate via fontconfig, the resolver used by XeLaTeX.
+          fc-match -f '%{family}\n' 'TeX Gyre Pagella' | grep -qi 'TeX Gyre Pagella'
       - name: Validate release tag
         shell: bash
         run: |

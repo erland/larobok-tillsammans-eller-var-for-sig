@@ -39,8 +39,8 @@
       "sha256": "2390e20542efb337aa312a1e757ff019d313632de429895fa98fccb12b0e4c92"
     },
     ".github/workflows/03-release.yml": {
-      "bytes": 1621,
-      "sha256": "9fb16c36e2ce0a677f66cf26931f07accfcb60eeabbb8cc77d7d926d424b2c82"
+      "sha256": "f9344f95bf19ad801dc54aa7b0c9798317cd0aed91088a203f11534a96ea6271",
+      "bytes": 1770
     },
     "README.md": {
       "bytes": 1331,
