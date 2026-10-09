@@ -1,0 +1,275 @@
+{
+  "canonical_zip_name": "tillsammans-eller-var-for-sig-v0.1-r23.zip",
+  "chapters": {
+    "count": 8,
+    "hashes": {
+      "chapters/01-varfor-samverka.md": "7b9bdd582edba610c76e5383c54b1761792d4cd34d2a0ba37e203aebae0a1683",
+      "chapters/02-nar-lampar-sig-samverkan.md": "69237be4fe9d2144cfa02c1c74bc5c85160ae9c2189506c5d8b528506351aaff",
+      "chapters/03-samverkansmodeller.md": "bd80b8c54e6460a4260eee04d96088f393c0ace529cc917a49bc1602c15d9a90",
+      "chapters/04-juridik-finansiering-ansvar.md": "e08159cfbd95fc6a3a74760ed62f9f31067cecbc820afa32a141d3c418b2c485",
+      "chapters/05-svenska-erfarenheter.md": "161579a8e938918adec1e9ffcfadc220767ed59951c49b26ed6058f921787e28",
+      "chapters/06-valja-samverkansmodell.md": "c4f48685c4c0ea126d2beca33759773b65b814a2084a91158657634c109683f9",
+      "chapters/07-fran-ide-till-forvaltning.md": "8aa33f440a95d6ca110d12b5168ff35fccb73c3614d5cf4a215399d836e15844",
+      "chapters/08-kallor-och-vidare-lasning.md": "5a7d40ae698fcde43abbded37a733eecf9339c76211d8b2ab632cf13a72900bd"
+    },
+    "latest": 8
+  },
+  "created_at": "2026-10-09T16:41:51Z",
+  "last_operation": {
+    "changed_files": [
+      "docs/tabellrubriker-r23.md",
+      "publishing/pdf-filter.lua"
+    ],
+    "operation": "Tydligare PDF-tabellrubriker",
+    "source_revision": 22
+  },
+  "parent_revision": 22,
+  "project_id": "5357da36-01f3-41cd-b307-938900f111ae",
+  "project_slug": "tillsammans-eller-var-for-sig",
+  "revision": 23,
+  "schema_version": 1,
+  "template": false,
+  "tracked_files": {
+    ".github/workflows/01-validate.yml": {
+      "bytes": 292,
+      "sha256": "56c504376f59ec4a5a7ab59ab29be43784f636f832af5c6e98f14b694c15afb7"
+    },
+    ".github/workflows/02-build-preview.yml": {
+      "bytes": 1182,
+      "sha256": "2390e20542efb337aa312a1e757ff019d313632de429895fa98fccb12b0e4c92"
+    },
+    ".github/workflows/03-release.yml": {
+      "bytes": 1621,
+      "sha256": "9fb16c36e2ce0a677f66cf26931f07accfcb60eeabbb8cc77d7d926d424b2c82"
+    },
+    "README.md": {
+      "bytes": 1331,
+      "sha256": "5ec5ff7667a85f267c9183311f48b20edfe118c8289f88a18343eefbf9afe445"
+    },
+    "assets/cover/README.md": {
+      "bytes": 55,
+      "sha256": "9ae0299913b2c9ecc17c81203421c3f106ff095fbdea0985f449d2fb562b7c10"
+    },
+    "assets/cover/omslag.png": {
+      "bytes": 1971490,
+      "sha256": "075350c3257d4ea8afe6d99fa991e855ade073fb377f11a332251feaedd45038"
+    },
+    "assets/image-prompts/README.md": {
+      "bytes": 71,
+      "sha256": "b50a8f92cd321ad174fb2991e1d2e9f931ae67bcd5a84b94957dea4fcef2cf9a"
+    },
+    "assets/images/README.md": {
+      "bytes": 91,
+      "sha256": "3ca661eed049895bf1314529400eb0e2719817b82569f15b58aeb794a7966fa3"
+    },
+    "book.yaml": {
+      "bytes": 1345,
+      "sha256": "2a2d012e2cbf9f1b1a3dced5d75d15b218e842fc944b1c12cac6ccd8049daf77"
+    },
+    "chapters/00-inledning.md": {
+      "bytes": 3988,
+      "sha256": "83574a10967c7502bb26c34aec3018f4757faccb45523e5d0412a24e25c1c0e1"
+    },
+    "chapters/01-varfor-samverka.md": {
+      "bytes": 10111,
+      "sha256": "7b9bdd582edba610c76e5383c54b1761792d4cd34d2a0ba37e203aebae0a1683"
+    },
+    "chapters/02-nar-lampar-sig-samverkan.md": {
+      "bytes": 10954,
+      "sha256": "69237be4fe9d2144cfa02c1c74bc5c85160ae9c2189506c5d8b528506351aaff"
+    },
+    "chapters/03-samverkansmodeller.md": {
+      "bytes": 14384,
+      "sha256": "bd80b8c54e6460a4260eee04d96088f393c0ace529cc917a49bc1602c15d9a90"
+    },
+    "chapters/04-juridik-finansiering-ansvar.md": {
+      "bytes": 11088,
+      "sha256": "e08159cfbd95fc6a3a74760ed62f9f31067cecbc820afa32a141d3c418b2c485"
+    },
+    "chapters/05-svenska-erfarenheter.md": {
+      "bytes": 11852,
+      "sha256": "161579a8e938918adec1e9ffcfadc220767ed59951c49b26ed6058f921787e28"
+    },
+    "chapters/06-valja-samverkansmodell.md": {
+      "bytes": 11033,
+      "sha256": "c4f48685c4c0ea126d2beca33759773b65b814a2084a91158657634c109683f9"
+    },
+    "chapters/07-fran-ide-till-forvaltning.md": {
+      "bytes": 11732,
+      "sha256": "8aa33f440a95d6ca110d12b5168ff35fccb73c3614d5cf4a215399d836e15844"
+    },
+    "chapters/08-kallor-och-vidare-lasning.md": {
+      "bytes": 7285,
+      "sha256": "5a7d40ae698fcde43abbded37a733eecf9339c76211d8b2ab632cf13a72900bd"
+    },
+    "chapters/kapitelmall-faktabok.md": {
+      "bytes": 337,
+      "sha256": "66f5e412396793af328b5fb1b5bbd4dec3412a62b3db4f4fdb00b97639d5f53c"
+    },
+    "chapters/kapitelmall-larobok.md": {
+      "bytes": 291,
+      "sha256": "84280ff1d5ca1f3743a8103d6e3342030e7055293ef947c7b2d07002287a7957"
+    },
+    "code/README.md": {
+      "bytes": 56,
+      "sha256": "6e24dcdfa47615f15207b592e216103956f6511dcdb64c4be75c2c191dc3b5e7"
+    },
+    "docs/beslutsstod-utkast.md": {
+      "bytes": 1968,
+      "sha256": "0faed550198c06964345ebbf1e8ee7e9e65c2f6d702b66901757448d87accde3"
+    },
+    "docs/bokspecifikation.md": {
+      "bytes": 2178,
+      "sha256": "698a1597112fd563f907d5ddd66a8d853d12acbd2abd172fd181585be4372ca3"
+    },
+    "docs/export-guide.md": {
+      "bytes": 563,
+      "sha256": "ae7c763f7d10d92d1145223b984110334363f436452441b11b5af919f818d799"
+    },
+    "docs/faktakontroll.md": {
+      "bytes": 5481,
+      "sha256": "61d5eda069928111075d1822e1a5976748f80c585a412a86c7a7da74cc5e9a1c"
+    },
+    "docs/helhetsgranskning-r11.md": {
+      "bytes": 1821,
+      "sha256": "3a099fd7fd872f31bc815c623b6fec739dc5f6823a6c5fb125be398ea86ad6d9"
+    },
+    "docs/illustration-plan.md": {
+      "bytes": 184,
+      "sha256": "ef0ff5593e1a4038140f30b747408b6ccd025e6cd508088e8d1753b2ea0093d3"
+    },
+    "docs/innehalls-canon.md": {
+      "bytes": 661,
+      "sha256": "4d114e5171e0958edfc62c4834e804b1d62caa6a291035b2a3cf38663cd5648c"
+    },
+    "docs/kall-och-faktagranskning-r12.md": {
+      "bytes": 3669,
+      "sha256": "56c718f191fbabe2b8efe36069acb0a41994e31dbe43df490d869123ebda070e"
+    },
+    "docs/kallpolicy.md": {
+      "bytes": 1362,
+      "sha256": "5a15065baa405021ff6b0521e952ce062c3460d5f71dae93c96a03380f0806f1"
+    },
+    "docs/kallregister.md": {
+      "bytes": 8023,
+      "sha256": "0817f21f7b66132c55ff4df08719fa18705b8fd20b976a08bc9bf9443d586e5f"
+    },
+    "docs/kapitelplan.md": {
+      "bytes": 1272,
+      "sha256": "dfe084d4843b8a874f3e2b9532bdc111deed27bd29a78914bc775d6b5e035ed6"
+    },
+    "docs/projektstatus.md": {
+      "bytes": 1551,
+      "sha256": "8c26075ddc7bd80883996f3971a15ed1f0d97ea46d4645eee0614140e87451bd"
+    },
+    "docs/provlasningsgranskning-r14.md": {
+      "bytes": 1386,
+      "sha256": "a27d0f670ecbc2e672037fcf9854e90f36e6e27537b015c2db304d4eb62c9fab"
+    },
+    "docs/publiceringsforberedelser-r16.md": {
+      "bytes": 403,
+      "sha256": "3e1c238e200b438a5d88ad68b5a79884eab26cb5e2006dec9d61605a114de0b2"
+    },
+    "docs/publiceringsforberedelser-r17.md": {
+      "bytes": 307,
+      "sha256": "0eadb5074983c01307e22f9880b7fc6109f86680a9e1fd91e444a539aa0f46bd"
+    },
+    "docs/quality-checklist.md": {
+      "bytes": 980,
+      "sha256": "96b59bfb755f511c92aff36c352f7d12c3edc0750af549cc1adb6ba2443bd195"
+    },
+    "docs/redaktionell-kallstruktur-r18.md": {
+      "bytes": 418,
+      "sha256": "10515eded676359d3d9c949cb4b3381cc671d31db53b77f2021b3022f290fe3f"
+    },
+    "docs/redaktionell-slutgenomgang-r13.md": {
+      "bytes": 757,
+      "sha256": "76d9db135fc110555fb6db2426cc2e009bf9c2b7faf1828755f0024b41272891"
+    },
+    "docs/redaktionell-slutgenomgang-r15.md": {
+      "bytes": 804,
+      "sha256": "b24ec54d9116fa3983a925ec9a58c993a91930c6c1d6d058f707f0fc1f8eb95f"
+    },
+    "docs/snabbguide-modellval.md": {
+      "bytes": 1080,
+      "sha256": "f811fd47ea4adf3775f51de9c52b3ed6337a3d9d55cf32138688471999594df7"
+    },
+    "docs/tabell-och-kapitelgranskning-r19.md": {
+      "bytes": 561,
+      "sha256": "ab5ebdc5675d9d1627b62a690616c75578d949ecae93515d05618759b7a040e0"
+    },
+    "docs/tabellrubriker-r23.md": {
+      "bytes": 253,
+      "sha256": "173a97a702c302daea34db0f551b699e56f4ee0751b20360334fba4f735f0ad8"
+    },
+    "docs/terminologi.md": {
+      "bytes": 89,
+      "sha256": "e346c7a9bda019788e471e37b1afa8465a2c808493086b6abbe69ee5e71f8e5f"
+    },
+    "examples/README.md": {
+      "bytes": 71,
+      "sha256": "3f3e5d2ac0800028ddb7bf134d332ed4b5ff3b629246b221606a014c05d5f550"
+    },
+    "exercises/README.md": {
+      "bytes": 85,
+      "sha256": "ba26bddfad8c4db99c5c8dd518f96af7dcf1c4a6264dd355f5d227940e55ec6b"
+    },
+    "exports/README.md": {
+      "bytes": 105,
+      "sha256": "abaaec6a496f86407595ef68af33ab4abe94a9a03c7f4410d1a0c51815db0c89"
+    },
+    "exports/exportlogg.md": {
+      "bytes": 93,
+      "sha256": "f46cb68df4c310e24d7ceb62ba1f6c4eed5c6bb9ff11c7c5ff85dd33b3094d58"
+    },
+    "project-index.md": {
+      "bytes": 1285,
+      "sha256": "54f5df4f898d2eba040177c1f5014bd94497d9d6593399e70400fe60deae5f8f"
+    },
+    "publishing/build-notes.md": {
+      "bytes": 439,
+      "sha256": "41ea9b200a768f1f55a5fd86ee6a278907f994274ca548cf742225579e50202c"
+    },
+    "publishing/epub.css": {
+      "bytes": 350,
+      "sha256": "8016551bc5a88d2038f541bd128116eaf0deda049be24065adab956de34e9866"
+    },
+    "publishing/fix-epub-after-pandoc.py": {
+      "bytes": 3337,
+      "sha256": "223e8f4fb24813ecdf687db1fea7fe2a272af8f4a9ac1ad254ac01c9c03bd3a2"
+    },
+    "publishing/pdf-filter.lua": {
+      "bytes": 1833,
+      "sha256": "9d4e3f4d49c6386ed70499244670f2b8550f6809f9ba792687fb0147c477d247"
+    },
+    "publishing/pdf-template.tex": {
+      "bytes": 2683,
+      "sha256": "b70779f924f6bf88ffc8903ed44e903af2fe29209df89e53a4cfe43ef473d1b8"
+    },
+    "revision-log.md": {
+      "bytes": 7687,
+      "sha256": "f2ec99f9cbe455eaa0027f02f0e9989785369070e7694a9c58d7d7ca9865f556"
+    },
+    "scripts/build_book.py": {
+      "bytes": 1314,
+      "sha256": "1a8a390ab62eaac664220a17c631cb57350d0bca648ac9fc9fb61ec142c53255"
+    },
+    "scripts/export-book.py": {
+      "bytes": 6470,
+      "sha256": "325f442bdc05e4c6d37b23c23a8cf066acd30b9d884fef711baaf9eaf3d401b1"
+    },
+    "scripts/export-book.sh": {
+      "bytes": 89,
+      "sha256": "cfb607edff8c8da14ec86e89352efabe27a06807666fc722ea4594e19de62b31"
+    },
+    "scripts/project_integrity.py": {
+      "bytes": 6443,
+      "sha256": "97f26bb87bf257e431128c520e00f21005ca81b7ba719c14a56e6325a0926170"
+    },
+    "scripts/validate_project.py": {
+      "bytes": 2852,
+      "sha256": "1c60364217f6063d988c99835eca81ad168300ada630e3a9dd706f72a2156a27"
+    }
+  },
+  "updated_at": "2026-10-09T18:16:33Z"
+}
